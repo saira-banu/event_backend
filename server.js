@@ -1,6 +1,8 @@
 const express = require("express");
 const { CosmosClient } = require("@azure/cosmos");
-const cors = require("cors");
+app.use(cors({
+  origin: "*"
+}));
 
 const app = express();
 app.use(express.json());
