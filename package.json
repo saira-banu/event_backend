@@ -2,7 +2,7 @@
   "name": "event-registration-app",
   "private": true,
   "version": "0.0.0",
-   "scripts": {
+  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -10,6 +10,9 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "@azure/cosmos": "^4.9.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
