@@ -53,7 +53,7 @@ app.get("/events", async (req, res) => {
     }
 });
 
-// ✅ Get registrations
+//  Get registrations
 app.get("/registrations", async (req, res) => {
     try {
         const { resources } = await container.items.readAll().fetchAll();
@@ -64,7 +64,7 @@ app.get("/registrations", async (req, res) => {
     }
 });
 
-// ✅ Register user
+//  Register user
 app.post("/register", async (req, res) => {
     try {
         let data = req.body;
